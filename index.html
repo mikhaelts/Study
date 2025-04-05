@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Library - Universo do Conhecimento Tecnológico</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-book-open"></i>
+                <h1>Study Library</h1>
+            </div>
+            
+            <!-- Botão do menu mobile -->
+            <button class="mobile-menu-toggle" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#features">Recursos</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#platform">Plataforma</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                    <li><a href="#cta" class="btn btn-outline">Começar Agora</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h2>Explore o Universo do Conhecimento Tecnológico</h2>
+            <p>Roadmaps digitais, trilhas de aprendizado e uma plataforma completa com os melhores recursos para impulsionar sua carreira na tecnologia.</p>
+            <div class="hero-btns">
+                <a href="#products" class="btn">Conheça Nossos Produtos</a>
+                <a href="#platform" class="btn btn-outline">Explorar Plataforma</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Por que escolher a Study Library?</h2>
+                <p>Nossa missão é guiar você através do vasto universo do conhecimento tecnológico com os melhores recursos de aprendizagem.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Roadmaps Claros</h3>
+                    <p>Guias passo a passo para dominar qualquer área da tecnologia, desde iniciante até especialista.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Trilhas Especializadas</h3>
+                    <p>Caminhos de aprendizado focados em Front-end, Back-end, Cloud e Cybersecurity.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Acervo Completo</h3>
+                    <p>Milhares de livros, PDFs e materiais de estudo em um só lugar, sempre atualizados.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Simulados Inteligentes</h3>
+                    <p>Teste seus conhecimentos com simulados adaptativos que evoluem com seu aprendizado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Roadmaps e Trilhas</h2>
+                <p>Selecione o caminho que melhor se adapta aos seus objetivos de carreira na tecnologia.</p>
+            </div>
+            <div class="products-tabs">
+                <button class="tab-btn active" data-category="all">Todos</button>
+                <button class="tab-btn" data-category="frontend">Front-end</button>
+                <button class="tab-btn" data-category="backend">Back-end</button>
+                <button class="tab-btn" data-category="cloud">Cloud</button>
+                <button class="tab-btn" data-category="cyber">Cybersecurity</button>
+            </div>
+            <div class="products-grid">
+                <!-- Front-end Products -->
+                <div class="product-card" data-category="frontend">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80');"></div>
+                    <div class="product-content">
+                        <span class="product-category">Front-end</span>
+                        <h3>Trilha Completa Front-end</h3>
+                        <p>Domine HTML, CSS, JavaScript e frameworks modernos como React e Vue.js.</p>
+                        <div class="product-price">R$ 149,90</div>
+                        <a href="#" class="btn">Comprar Agora</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="frontend">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80');"></div>
+                    <div class="product-content">
+                        <span class="product-category">Front-end</span>
+                        <h3>Roadmap Front-end</h3>
+                        <p>Domine HTML, CSS, JavaScript e frameworks modernos como React e Vue.js.</p>
+                        <div class="product-price">R$ 149,90</div>
+                        <a href="#" class="btn">Comprar Agora</a>
+                    </div>
+                </div>
+                <!-- Back-end Products -->
+                <div class="product-card" data-category="backend">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');"></div>
+                    <div class="product-content">
+                        <span class="product-category">Back-end</span>
+                        <h3>Roadmap Back-end Master</h3>
+                        <p>Aprenda Node.js, Python, Django, bancos de dados e arquitetura de software.</p>
+                        <div class="product-price">R$ 179,90</div>
+                        <a href="#" class="btn">Comprar Agora</a>
+                    </div>
+                </div>
+                <!-- Cloud Products -->
+                <div class="product-card" data-category="cloud">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1376&q=80');"></div>
+                    <div class="product-content">
+                        <span class="product-category">Cloud Computing</span>
+                        <h3>Trilha AWS & Azure</h3>
+                        <p>Torne-se um especialista em computação em nuvem com AWS e Microsoft Azure.</p>
+                        <div class="product-price">R$ 199,90</div>
+                        <a href="#" class="btn">Comprar Agora</a>
+                    </div>
+                </div>
+                <!-- Cybersecurity Products -->
+                <div class="product-card" data-category="cyber">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');"></div>
+                    <div class="product-content">
+                        <span class="product-category">Cybersecurity</span>
+                        <h3>Roadmap Segurança Digital</h3>
+                        <p>Aprenda ethical hacking, proteção de dados e segurança de redes.</p>
+                        <div class="product-price">R$ 219,90</div>
+                        <a href="#" class="btn">Comprar Agora</a>
+                    </div>
+                </div>
+                <!-- Bundle Product -->
+                <div class="product-card" data-category="all">
+                    <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80');"></div>
+                    <div class="product-content">
+                        <span class="product-category">Pacote Completo</span>
+                        <h3>Coleção Full Stack Pro</h3>
+                        <p>Todas as trilhas em um só pacote com desconto especial + 1 ano de plataforma.</p>
+                        <div class="product-price">R$ 599,90</div>
+                        <a href="#" class="btn">Comprar Agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platform Section -->
+    <section class="platform" id="platform">
+        <div class="container platform-content">
+            <h2>Study Library Platform</h2>
+            <p>Nossa plataforma exclusiva com mais de 10.000 recursos de aprendizagem, simulados adaptativos e acompanhamento de progresso.</p>
+            <a href="#" class="btn">Experimente Grátis por 7 Dias</a>
+            <div class="platform-features">
+                <div class="platform-feature">
+                    <i class="fas fa-book-reader"></i>
+                    <h3>10K+ Livros</h3>
+                    <p>Acervo completo em PDF e eBooks</p>
+                </div>
+                <div class="platform-feature">
+                    <i class="fas fa-tasks"></i>
+                    <h3>Simulados</h3>
+                    <p>Testes para todas as tecnologias</p>
+                </div>
+                <div class="platform-feature">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>Progresso</h3>
+                    <p>Acompanhe seu desenvolvimento</p>
+                </div>
+                <div class="platform-feature">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Acesso Mobile</h3>
+                    <p>Estude em qualquer lugar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>O que dizem nossos alunos</h2>
+                <p>Veja como a Study Library está transformando carreiras na tecnologia.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-content">Os roadmaps da Study Library me guiaram exatamente no que eu precisava aprender para conseguir minha primeira vaga como desenvolvedor front-end. Em 6 meses eu estava empregado!</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Carlos Silva">
+                        </div>
+                        <div class="author-info">
+                            <h4>Carlos Silva</h4>
+                            <p>Desenvolvedor Front-end</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-content">A plataforma tem todos os livros que eu precisava para me preparar para minhas certificações AWS. Os simulados são incríveis e me deram confiança para a prova real.</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Ana Oliveira">
+                        </div>
+                        <div class="author-info">
+                            <h4>Ana Oliveira</h4>
+                            <p>Arquiteta de Cloud</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-content">Como alguém que estava migrando de carreira, os materiais da Study Library foram essenciais para eu me orientar no vasto mundo da programação. Recomendo para todos!</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Ricardo Santos">
+                        </div>
+                        <div class="author-info">
+                            <h4>Ricardo Santos</h4>
+                            <p>Desenvolvedor Full Stack</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="cta">
+        <div class="container cta-content">
+            <h2>Pronto para decolar sua carreira?</h2>
+            <p>Junte-se a milhares de profissionais que estão transformando suas vidas com a Study Library. O universo do conhecimento te espera!</p>
+            <a href="#" class="btn">Comece Agora Mesmo</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Study Library</h3>
+                    <p>Explorando o universo do conhecimento tecnológico para transformar carreiras e vidas.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Produtos</h3>
+                    <ul>
+                        <li><a href="#">Roadmaps Digitais</a></li>
+                        <li><a href="#">Trilhas de Aprendizado</a></li>
+                        <li><a href="#">Plataforma de Estudos</a></li>
+                        <li><a href="#">Pacotes Completos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Suporte</h3>
+                    <ul>
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Study Library. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Tab functionality for products section
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabBtns = document.querySelectorAll('.tab-btn');
+            const productCards = document.querySelectorAll('.product-card');
+            
+            tabBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    tabBtns.forEach(b => b.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    const category = this.getAttribute('data-category');
+                    
+                    // Show/hide products based on category
+                    productCards.forEach(card => {
+                        if (category === 'all' || card.getAttribute('data-category') === category) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script>
+        // Menu Mobile Toggle
+const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+const mainNav = document.querySelector('.main-nav');
+
+mobileMenuToggle.addEventListener('click', function() {
+    mainNav.classList.toggle('active');
+    this.innerHTML = mainNav.classList.contains('active') ? 
+        '<i class="fas fa-times"></i>' : 
+        '<i class="fas fa-bars"></i>';
+});
+
+// Fechar menu ao clicar em um link
+document.querySelectorAll('.main-nav a').forEach(link => {
+    link.addEventListener('click', function() {
+        if (window.innerWidth <= 992) {
+            mainNav.classList.remove('active');
+            mobileMenuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+        }
+    });
+});
+    </script>
+</body>
+</html>
