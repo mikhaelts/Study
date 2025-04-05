@@ -123,7 +123,7 @@ nav ul li a:hover::after {
 /* Hero Section */
 .hero {
     padding: 180px 0 100px;
-    background: url('https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80%22%20alt=%22Universo%20estrelado') center/cover no-repeat;
+    background: url('https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80%22%20alt=%22Via%20L%C3%A1ctea') center/cover no-repeat;
     position: relative;
     text-align: center;
 }
